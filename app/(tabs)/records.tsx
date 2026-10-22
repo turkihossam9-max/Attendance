@@ -11,16 +11,7 @@ import {
   Modal,
   TextInput,
 } from 'react-native';
-import {
-  TrainFront,
-  FileSpreadsheet,
-  FileText,
-  Trash2,
-  Plus,
-  X,
-  Filter,
-  LogOut,
-} from 'lucide-react-native';
+import { TrainFront, FileSpreadsheet, FileText, Trash2, Plus, X, ListFilter as Filter, LogOut } from 'lucide-react-native';
 import { supabase } from '@/lib/supabase';
 import { theme } from '@/lib/theme';
 import { useAuth } from '@/lib/auth';

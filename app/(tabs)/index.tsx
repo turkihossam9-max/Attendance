@@ -11,19 +11,7 @@ import {
 } from 'react-native';
 import { CameraView, useCameraPermissions } from 'expo-camera';
 import { MapView } from '@/components/MapView';
-import {
-  TrainFront,
-  LogOut,
-  MapPin,
-  Clock,
-  Navigation,
-  CheckCircle2,
-  XCircle,
-  AlertCircle,
-  Camera,
-  ShieldCheck,
-  X,
-} from 'lucide-react-native';
+import { TrainFront, LogOut, MapPin, Clock, Navigation, CircleCheck as CheckCircle2, Circle as XCircle, CircleAlert as AlertCircle, Camera, ShieldCheck, X } from 'lucide-react-native';
 import { useAuth } from '@/lib/auth';
 import { supabase } from '@/lib/supabase';
 import { theme } from '@/lib/theme';

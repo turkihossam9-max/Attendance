@@ -10,20 +10,7 @@ import {
   Modal,
   ActivityIndicator,
 } from 'react-native';
-import {
-  Plus,
-  Users,
-  Trash2,
-  Pencil,
-  X,
-  User,
-  Shield,
-  Crown,
-  Search,
-  Lock,
-  Unlock,
-  Smartphone,
-} from 'lucide-react-native';
+import { Plus, Users, Trash2, Pencil, X, User, Shield, Crown, Search, Lock, Clock as Unlock, Smartphone } from 'lucide-react-native';
 import { supabase } from '@/lib/supabase';
 import { theme } from '@/lib/theme';
 import { useAuth, hashPassword } from '@/lib/auth';
